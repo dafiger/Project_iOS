@@ -8,6 +8,7 @@ target 'Project_iOS' do
 
 	pod 'Masonry', '~> 1.1.0'
 
+	#pod ’CTMediator‘
 	#pod 'ReactiveCocoa', '~> 8.0.2'
 	#pod 'ReactiveObjC', '~> 3.1.0'
 	#pod 'AFNetworking', '~> 3.2.1'
@@ -26,6 +27,7 @@ target 'Project_iOS' do
 	#pod 'BaiduMapKit', '~> 3.2'
 
 	#pod 'MobileVLCKit'
+	#pod 'JSONKit', '~> 1.4'
 	#pod 'JLRoutes'
 	#pod 'IQKeyboardManager'
 	#pod 'JXBAdPageView', '~> 1.5'
@@ -33,9 +35,11 @@ target 'Project_iOS' do
 	#pod 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
 	#pod 'Verify', :path => './Verify'
 	#pod 'BasePlug', :path => 'Lib/BasePlug'
+	#pod 'EHomePage', :git => ‘https://github.com/yhl714387953/EHomePage.git'
 
 end
 
+# pod update --no-repo-update
 # 实现post_install Hooks
 post_install do |installer|
 # puts 为在终端打印方法
