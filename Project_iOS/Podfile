@@ -21,6 +21,7 @@ target 'Project_iOS' do
 	#pod 'MJRefresh', '~> 3.1.15.7'
 	#pod 'FMDB', '~> 2.7.5'
 	#pod 'CocoaAsyncSocket', '~> 7.6.3'
+	#pod 'SDCycleScrollView'
 
     #pod 'UMengAnalytics-NO-IDFA', '~> 4.2.5'
     #pod 'UMCCommon'
