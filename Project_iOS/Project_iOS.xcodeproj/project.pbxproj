@@ -39,13 +39,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DB9EDBBF229F67FF007DE978 /* Project_iOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Project_iOS;
-			sourceTree = "<group>";
-		};
 		E32DB6A7225B2C1B005D5B75 = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +62,6 @@
 				E32DB6B4225B2C1B005D5B75 /* AppDelegate.m */,
 				E32DB6B6225B2C1B005D5B75 /* ViewController.h */,
 				E32DB6B7225B2C1B005D5B75 /* ViewController.m */,
-				DB9EDBBF229F67FF007DE978 /* Project_iOS */,
 				E32DB6B9225B2C1B005D5B75 /* Main.storyboard */,
 				E32DB6BC225B2C1C005D5B75 /* Assets.xcassets */,
 				E32DB6BE225B2C1C005D5B75 /* LaunchScreen.storyboard */,
@@ -228,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -281,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -298,6 +290,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Project_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +312,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Project_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
